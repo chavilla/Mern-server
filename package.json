@@ -7,7 +7,6 @@
     "start": "node .",
     "dev": "nodemon ."
   },
-  "repository": "https://github.com/chavilla/Mern-projects",
   "author": "Jesus Charris Villa",
   "license": "MIT",
   "devDependencies": {
