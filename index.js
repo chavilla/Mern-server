@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
 app.use(express.json({extended:true }));
 
 //Puerto donde corre el app
-const port=process.env.port || 4000;
+const port=process.env.PORT || 4000;
 //Arranca el servidor
 app.listen(port,'0.0.0.0',()=>{
     console.log(`Conectado al puerto ${port}`);
